@@ -10,7 +10,7 @@ import 'HttpRoutePath.dart';
 
 void main() async {
 
-String url3 = "http://192.168.1.5:8987/user/login";
+
 
 
 //HttpUtil().get(url3,data:{"username":"123","password":"asda"});         //第一种方式
@@ -35,7 +35,7 @@ String url3 = "http://192.168.1.5:8987/user/login";
 class HttpUtil {
 
 
-  static String httpURL = "http://47.101.134.116:8987";
+  static String httpURL = "http://ip:port";
   static int awaitServerTime = 18;            //  每一个请求    如果该时间后  接收不到服务器回执  则报警
   static String securityStr;         //登陆后    服务器返回这个   以后请求每次都要带着这个   已验证
 
